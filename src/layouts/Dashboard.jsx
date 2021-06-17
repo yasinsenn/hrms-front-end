@@ -16,9 +16,6 @@ export default function Dashboard() {
             <MenuLeft />
           </Grid.Column>
           <Grid.Column width={13}>
-           {/* <JobPositionList/>
-           <EmployerList/> */}
-           {/* <JobSeekerList/> */}
            <JobAdvertList/>
           </Grid.Column>
         </Grid.Row>
