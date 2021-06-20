@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid } from "semantic-ui-react";
-import JobAdvertList from "../pages/JobAdvertList";
+import CreateJobAdvert from "../pages/CreateJobAdvert";
+//import JobAdvertList from "../pages/JobAdvertList";
 //import EmployerList from "../pages/EmployerList";
 //import JobSeekerList from "../pages/JobSeekerList";
 //import JobPositionList from "../pages/JobPositionList";
@@ -16,7 +17,7 @@ export default function Dashboard() {
             <MenuLeft />
           </Grid.Column>
           <Grid.Column width={13}>
-           <JobAdvertList/>
+           <CreateJobAdvert/>
           </Grid.Column>
         </Grid.Row>
       </Grid>
